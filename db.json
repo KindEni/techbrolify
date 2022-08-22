@@ -1,0 +1,53 @@
+{
+  "items": [
+    
+    {
+      "id": 1,
+      "listId": 1,
+      "title": "MacBook Pro - M1 chip",
+      "quantity": 1,
+      "price": 6.99
+    },
+    { "id": 2, "listId": 1, "title": "Anti-glare glasses", "quantity": 2, "price": 1.99 },
+    {
+      "id": 3,
+      "listId": 1,
+      "title": "iPhone X",
+      "quantity": 1,
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "listId": 1,
+      "title": "Apple Head Phones",
+      "quantity": 1,
+      "price": 8.99
+    },
+    {
+      "id": 1,
+      "listId": 2,
+      "title": "Master graphQl",
+      "quantity": 1,
+      "price": 19.99
+    },
+    { "id": 2, "listId": 2, "title": "Learn Js in two days - zero to hero", "quantity": 2, "price": 21.99 },
+    {
+      "id": 3,
+      "listId": 2,
+      "title": "Learn to code, eyes closed - Top secret",
+      "quantity": 1,
+      "price": 90.99
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "title": "Become a senior developer in 2 weeks - Not fraud",
+      "quantity": 1,
+      "price": 68.99
+    }
+],
+  "lists": [
+    { "id": 1, "title": "Gadgets to buy 👩‍💻" },
+    { "id": 2, "title": "Courses to buy 📚" }
+  ]
+}
