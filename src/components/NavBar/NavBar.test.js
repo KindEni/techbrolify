@@ -21,3 +21,15 @@ it('should go back when the back button is clicked', () => {
     expect(mockGoBack).toHaveBeenCalled()
 
 })
+
+it('should open the form clicked', () => {
+    const mockOpenForm = jest.fn();
+    render(<NavBar openForm={mockOpenForm}/>)
+
+    const AddItembutton = screen.getByRole('button', {name:'+ Add Item'})
+    
+    user.click(AddItembutton);
+
+    expect(mockOpenForm).toHaveBeenCalled()
+})
+
