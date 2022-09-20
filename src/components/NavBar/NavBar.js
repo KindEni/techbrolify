@@ -5,7 +5,8 @@ const NavBarWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background: navajowhite;
+  background: #A1B57D;
+  
 `;
 
 const Title = styled.h2`
@@ -17,10 +18,12 @@ const Title = styled.h2`
   &:last-child {
     margin-right: 20%;
   }
+  background: #A1B57D;
 `;
 
 const NavBarButton = styled(Button)`
   margin: 10px 5%;
+  background: #000;
 `;
 
 function NavBar({ goBack, title, openForm = false }) {

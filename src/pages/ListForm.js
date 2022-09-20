@@ -14,7 +14,7 @@ const FormWrapper = styled.div`
 `;
 
 const SubmitButton = styled(Button)`
-  background: blue;
+  background:#06113C;
   margin: 2% 0;
 `;
 
