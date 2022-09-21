@@ -32,7 +32,8 @@ function NavBar({ goBack, title, openForm = false }) {
       {goBack && <NavBarButton onClick={goBack}>{`< Go Back`}</NavBarButton>}
       <Title>{title}</Title>
       {openForm && (
-        <NavBarButton onClick={openForm}>{`+ Add Item`}</NavBarButton>
+        <NavBarButton onClick={openForm}
+        data-cy='addItem'>{`+ Add Item`}</NavBarButton>
       )}
     </NavBarWrapper>
   );

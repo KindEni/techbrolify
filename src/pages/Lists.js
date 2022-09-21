@@ -49,7 +49,7 @@ const Lists = () => {
           <span>{error || 'Loading...'}</span>
         ) : (
           lists.map((list) => (
-            <ListLink onClick={fetchItems(list.id)} key={list.id} to={`list/${list.id}`}>
+            <ListLink onClick={() => fetchItems(list.id)} key={list.id} to={`list/${list.id}`}>
               <Title>{list.title}</Title>
             </ListLink>
           ))

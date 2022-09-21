@@ -14,7 +14,8 @@ const FormWrapper = styled.div`
 `;
 
 const SubmitButton = styled(Button)`
-  background:#06113C;
+  background:#A1B57D;
+  color: #000;
   margin: 2% 0;
 `;
 
@@ -67,7 +68,7 @@ function onSubmit(e) {
              placeholder='0.00'
              value={price}
              handleOnChange={(e) => setPrice(e.currentTarget.value)} />
-          <SubmitButton>Add Item</SubmitButton>
+          <SubmitButton data-cy='submitForm'>Add Item</SubmitButton>
         </form>
       </FormWrapper>
     </>
